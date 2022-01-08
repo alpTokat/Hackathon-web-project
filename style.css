@@ -91,7 +91,9 @@ h3{
     font-weight: 800;
 }
 
-
+.kodla-video{
+    font-size: 40px;
+}
 
 
 .card-btn{
@@ -146,6 +148,8 @@ h3{
     font-size: 20px;
     margin-top: 15px;
 }
+
+
 @media only screen and (max-width:800px){
     .nav-dil{
         display: none;
