@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+body{
+    height: 2500px;
+}
+a{
+    font-weight: 600;
+}
+
+h2{
+    font-size: 4rem;
+    font-weight: 800;
+}
+h3{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.navbar-nav a{
+    margin-left: 20px;
+}
+#nav-img{
+    height: 40px;
+}
+.nav-dil{
+    margin-right: 30px;
+    display: flex;
+}
+.acilir-content{
+    margin-top: 5px;
+}
+.nav-btn{
+    text-align: center;
+    padding: 12px;
+    width: 90px;
+    background-color: rgba(251,146,60);
+    border-radius: 30px;
+}
+.nav-btn a{
+    text-decoration: none;
+    color: white;
+}
+.nav-btn:hover{
+    opacity: 0.7;
+}
+
+
+
+
+.first-content{
+    width: 100%;
+    height: 600px;
+    background-image:  linear-gradient(rgb(45, 156, 219, 0.6), rgba(155, 81, 224, 0.6)),url("images/school.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.first-content h2{
+    margin-top: 150px;
+}
+.yazi{
+    margin-top: 15px;
+}
+.yazi p{
+    font-size:  1.40rem;
+    font-weight: 500;
+}
+
+.content-btn{
+    margin-top: 30px; 
+    text-align: center;
+    line-height: 60px;
+    width: 160px;
+    background-color: rgba(251,146,60);
+    border-radius: 40px;
+}
+.content-btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.content-btn:hover{
+    background-color: rgb(246, 172, 112);
+}
+
+.kodluyoruz{
+    line-height: 2.5rem;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+
+
+
+.card-btn{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    line-height: 50px;
+    width: auto;
+    background:linear-gradient(90deg,rgba(45,156,219,.6),rgba(155,81,224,.6));
+    border-radius: 30px;
+}
+.card-btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.card-btn:hover{
+    text-decoration: underline;
+}
+
+
+.normal{
+    margin-top: 30px;
+    width: 100%;
+    height: 300px;
+    background:linear-gradient(90deg,rgba(45,156,219,.6),rgba(155,81,224,.6));
+}
+.normal-content-btn{
+    margin-top: 30px; 
+    text-align: center;
+    line-height: 45px;
+    padding-left: 20px ;
+    padding-right: 20px ;
+    width: max-content;
+    background-color: rgba(251,146,60);
+    border-radius: 40px;
+}
+.normal-content-btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.esitlik{
+    width: 100%;
+    height: max-content;
+}
+.oranlar{
+    display: flex;
+}
+.text p{
+    font-size: 20px;
+    margin-top: 15px;
+}
+@media only screen and (max-width:800px){
+    .nav-dil{
+        display: none;
+    }
+    h2{
+        font-size: 2rem;
+        font-weight: 800;
+    }
+    .yazi p{
+        font-size:  1.25rem;
+        font-weight: 400;
+    }
+    .content-btn{
+        width: 75%;
+        line-height: 50px;
+    }
+    .normal-content-btn{
+        width: 75%;
+    }
+    .oranlar{
+        display: block;
+        justify-content: center;
+    }
+}
